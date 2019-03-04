@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <Button
+                    android:id="@+id/btn_simple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="简单跳转"/>
+
+            <Button
+                    android:id="@+id/btn_param"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="带参数跳转"/>
+
+            <Button
+                    android:id="@+id/btn_uri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="uri跳转"/>
+
+            <Button
+                    android:id="@+id/btn_param_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="解析参数跳转"/>
+
+            <Button
+                    android:id="@+id/btn_interceptor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="测试拦截器跳转"/>
+
+
+            <Button
+                    android:id="@+id/btn_degrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="跳转失败降级"/>
+
+            <Button
+                    android:id="@+id/btn_hello"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hello服务"/>
+
+            <Button
+                    android:id="@+id/btn_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="要返回结果的跳转"/>
+
+            <Button
+                    android:id="@+id/btn_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="获取fragment"/>
+
+            <Button
+                    android:id="@+id/btn_wv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="webview跳转"/>
+
+            <Button
+                    android:id="@+id/btn_kotlin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="kotlin跳转"/>
+
+            <Button
+                    android:id="@+id/btn_oldanim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="旧版动画跳转"/>
+
+            <Button
+                    android:id="@+id/btn_newanim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="新版动画跳转"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

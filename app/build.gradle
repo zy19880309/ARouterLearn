@@ -1,0 +1,18 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply from: "../config.gradle"
+
+android {
+    defaultConfig {
+        applicationId "cn.zhangyong.arouterlearn"
+    }
+}
+
+dependencies {
+    implementation project(':samplemodule')
+    implementation project(':kotlinmodule')
+}

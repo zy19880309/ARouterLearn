@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.zhangyong.kotlinmodule">
+
+    <application>
+        <activity android:name=".KotlinActivity">
+        </activity>
+    </application>
+
+</manifest>

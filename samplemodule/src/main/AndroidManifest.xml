@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.zhangyong.samplemodule">
+
+    <application>
+        <activity android:name=".SimpleActivity">
+        </activity>
+        <activity android:name=".ParamActivity">
+        </activity>
+        <activity android:name=".UriActivity">
+        </activity>
+        <activity android:name=".ParamAutoActivity">
+        </activity>
+        <activity android:name=".InterceptorActivity">
+        </activity>
+        <activity android:name=".WebviewActivity">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+apply plugin: 'com.android.library'
+apply from: "../config.gradle"
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
+}
